@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="shortcut icon" href="favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="./css/blog.css"/>
+		<script src="./js/blog.js"></script>
+		<title>Tetinen</title>
+	</head>
+	<body>
+		<div class="header">
+			<div class="navigator">
+				<button class="navigator-btn" id="home-btn"><a href="./" class="navigator-btn" title="Home">主页</a></button>
+				<button class="navigator-btn" id="github-btn"><a href="https://github.com/Tetinen" class="navigator-btn" title="Github">Github</a></button>
+				<button class="navigator-btn" id="rss-btn"><a href="https://tetinen.github.io/feed.xml" class="navigator-btn" title="RSS">RSS</a></button>
+				<h1 class="sitetitle"><span id="sitetitle">Tetinen</span></h1>
+			</div>
+		</div>
+		<div class="rightbar">
+			<noscript>请打开JavaScript|Please open javascript</noscript>
+			<h1 style="text-align: center;">关于</h1>
+			<span style="position: absolute;left: 5%;right: 5%;">&ensp;&ensp;Tetinen，编程爱好者，主攻前端Html、CSS、JavaScript，后端PHP、C，偶尔会发布和更新一些小东西到Github。</span>
+		</div>
+		<div class="content" id="content">
+			
+		</div>
+		<script>
+		document.getElementById("content").innerHTML = Tetinen.parse(Tetinen.ajax("GET","json/content.json"))
+		</script>
+	</body>
+</html>
