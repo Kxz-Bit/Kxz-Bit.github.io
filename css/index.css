@@ -34,8 +34,8 @@
 }
 .username{
 	position: absolute;
-	top: 18%;
-	right: 40%;
+	top: 16%;
+	right: 35%;
 	color: white;
 }
 .content{
@@ -57,15 +57,15 @@
 }
 .github{
 	position: absolute;
-	width: 10%;
+	width: 20%;
 	height: 40%;
-	left: 30%;
+	left: 20%;
 }
 .blog{
 	position: absolute;
-	width: 10%;
+	width: 20%;
 	height: 10%;
-	left: 50%;
+	left: 60%;
 	top: 28%;
 	text-decoration: none;
 	color: black;
@@ -73,3 +73,12 @@
 .blog:hover{
 	text-decoration: underline;
 }
+@media screen and (max-width:800px){
+	.body{
+		width: 90%;
+		height: 70%;
+		left: 5%;
+		top: 15%;
+	}
+}
+
