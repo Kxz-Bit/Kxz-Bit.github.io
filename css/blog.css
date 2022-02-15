@@ -1,0 +1,106 @@
+:root{
+	background-color: whitesmoke;
+	overflow-y: auto;
+}
+a:hover{
+	text-decoration: underline;
+}
+hr{
+   width: 100%;
+}
+.header{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 28%;
+	background-color: #0F69A5;
+	color: white;
+}
+.navigator-btn{
+	background-color: #0F69A5;
+	border: 0px solid #0F69A5;
+	color: white;
+	font-size: 1.1rem;
+	text-decoration: none;
+}
+#home-btn{
+	position: absolute;
+	top: 1%;
+	left: 1%;
+}
+#github-btn{
+	position: absolute;
+	top: 1%;
+	left: 12%;
+}
+#rss-btn{
+	position: absolute;
+	top: 1%;
+	left: 25%;
+}
+.sitetitle{
+	position: absolute;
+	width: 50%;
+	height: 20%;
+	left: 25%;
+	top: 30%;
+	text-align: center;
+}
+.sitetitle:hover{
+	text-decoration: underline;
+	opacity: 90%;
+}
+.content{
+	position: absolute;
+	left: 1%;
+	top: 30%;
+	width: 72%;
+	height: max-content;
+	font-size: 1.3rem;
+	text-align: center;
+	border: 1px solid lightgray;
+	box-shadow: 0px 0px 10px lightgray;
+	overflow-y: auto;
+	background-color: white
+}
+.rightbar{
+	position: absolute;
+	right: 2%;
+	top: 30%;
+	width: 23%;
+	height:68%;
+	border: 1px solid lightgray;
+	box-shadow: 0px 0px 10px lightgray;
+	background-color: white;
+}
+.date{
+	color: gray;
+	font-size: 1rem;
+}
+@media screen and (max-width:500px) {
+	.content{
+		width: 90%;
+		height: 80%;
+		left: 5%;
+		overflow-y: auto;
+	}
+	.rightbar{
+		top: 115%;
+		width: 90%;
+		left: 5%;
+	}
+	#home-btn{
+		position: absolute;
+		top: 1%;
+		left: 0%;
+	}
+	#github-btn{
+		top: 1%;
+		left: 40%;
+	}
+	#rss-btn{
+		top: 1%;
+		left: 84%;
+	}
+}

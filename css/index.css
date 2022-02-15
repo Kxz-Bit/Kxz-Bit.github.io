@@ -1,0 +1,75 @@
+:root{
+	background-color: whitesmoke;
+}
+.body{
+	position: absolute;
+	width: 30%;
+	height: 50%;
+	left: 35%;
+	top: 25%;
+	background-color:white;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px lightgray;
+}
+.header{
+	position: absolute;
+	width: 100%;
+	height: 35%;
+	left: 0%;
+	top: 0%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: 1px solid lightgray;
+	background-color: #0F69A5;
+}
+.myavatar{
+	position: absolute;
+	width:20%;
+	top: 16%;
+	left: 5%;
+	border-radius: 1000px;
+	background-color: white;
+	box-shadow: -0.5px 1px 5px black;
+}
+.username{
+	position: absolute;
+	top: 18%;
+	right: 40%;
+	color: white;
+}
+.content{
+	position: absolute;
+	top: 45%;
+	left: 5%;
+	right: 5%;
+	font-size: 1.212rem;
+	color: dimgray;
+}
+.footer{
+	position: absolute;
+	top: 75%;
+	left: 0%;
+	width: 100%;
+	height: 25%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.github{
+	position: absolute;
+	width: 10%;
+	height: 40%;
+	left: 30%;
+}
+.blog{
+	position: absolute;
+	width: 10%;
+	height: 10%;
+	left: 50%;
+	top: 28%;
+	text-decoration: none;
+	color: black;
+}
+.blog:hover{
+	text-decoration: underline;
+}
