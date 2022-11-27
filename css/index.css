@@ -23,7 +23,7 @@
 	border: 1px solid lightgray;
 	background-color: #0F69A5;
 }
-.myavatar{
+/*.myavatar{
 	position: absolute;
 	width:20%;
 	top: 16%;
@@ -31,11 +31,11 @@
 	border-radius: 1000px;
 	background-color: white;
 	box-shadow: -0.5px 1px 5px black;
-}
+}*/
 .username{
 	position: absolute;
 	top: 16%;
-	right: 35%;
+        left: 20%;
 	color: white;
 }
 .content{
